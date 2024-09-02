@@ -11,8 +11,8 @@ function DivideandSumHelper(arr, start, end) {
     }
 
    //help split the array into three parts 
-    const first = start + Math.Floor((end-start + 1) /3);
-    const second = start + Math.Floor(2 * (end - start + 1) / 3); 
+    const first = start + Math.floor((end-start + 1) /3);
+    const second = start + Math.floor(2 * (end - start + 1) / 3); 
 
     // will find the sum recursively
     const sum1 = DivideandSumHelper(arr, start, first - 1);
